@@ -14,7 +14,7 @@ body {
 	padding: 20px;
 	position: relative;
 	overflow: hidden;
-	background-image: url('/images/image.png');
+	background-image: url('https://joinelevify.com/Images/image.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
