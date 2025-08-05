@@ -1,13 +1,12 @@
-
     <!DOCTYPE html>
     <html lang="de">
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/Images/logo.png" type="image/x-icon">
-    <title>Elevify - #1 Kostenlose Community für Gesichtslosen Content</title>
+    <title>Elevify - #1 Social Media Netzwerk</title>
     <meta name="description" content="Keine bezahlten Kurse, kein Unsinn. Nur echte gewinnbringende Angebote. Schließe dich 10.000+ anderen in der #1 kostenlosen gesichtslosen Content-Community an.">
-    <meta property="og:title" content="Elevify -  #1 kostenlose community für Social Media">
+    <meta property="og:title" content="Elevify - #1 Social Media Netzwerk">
     <meta property="og:description" content="Keine bezahlten Kurse, kein Unsinn. Nur echte gewinnbringende Angebote. Schließe dich 10.000+ anderen in unserer exklusiven Discord-Community an.">
     <meta property="og:image" content="http://www.joinelevify.com/images/logo.png">
     <meta property="og:url" content="http://www.joinelevify.com/">
@@ -15,7 +14,7 @@
     <meta property="og:site_name" content="Elevify">
     <meta name="theme-color" content="#7289da">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Elevify -  #1 kostenlose community für Social Media">
+    <meta name="twitter:title" content="Elevify - #1 Social Media Netzwerk">
     <meta name="twitter:description" content="Keine bezahlten Kurse, kein Unsinn. Nur echte gewinnbringende Angebote. Schließe dich 10.000+ anderen in unserer exklusiven Discord-Community an.">
     <meta name="twitter:image" content="http://www.joinelevify.com/images/logo.png">
 
@@ -75,11 +74,11 @@
     <div class="social">
     <div class="join-text">
     <div class="avatars">
-<img src="https://joinelevify.com/image1.webp" alt="Anonymer Avatar" class="avatar">
-=<img src="https://joinelevify.com/image2.webp" alt="Anonymer Avatar" class="avatar">
-=<img src="https://joinelevify.com/image3.webp" alt="Anonymer Avatar" class="avatar">
+    <img src="/Images/image1.png" alt="Anonymer Avatar" class="avatar">
+    <img src="/Images/image2.png" alt="Anonymer Avatar" class="avatar">
+    <img src="/Images/image3.png" alt="Anonymer Avatar" class="avatar">
     </div>
-    <span>Schließe dich 10.000+ anderen an,<br>die sich angemeldet haben</span>
+    <span>Schließe dich 10.000+ anderen Benutzern an</span>
 
     </div>
     </div>
@@ -111,7 +110,7 @@
     <script>
     // This chunk handles the Redirect and Text modals also a few from the og site 
     function createStars(){const stars=document.getElementById('stars');for(let i=0;i<50;i++){const star=document.createElement('div');star.className='star';star.style.left=`${Math.random()*100}%`;star.style.animationDelay=`${Math.random()*3}s`;stars.appendChild(star);}}
-    function typewriter(){const text='#1 kostenlose community für Social Media';const typewriterElement=document.getElementById('typewriter-text');const cursor=document.getElementById('typewriter-cursor');function startTyping(){let index=0;cursor.style.display='inline';typewriterElement.textContent='';function type(){if(index<text.length){typewriterElement.textContent+=text.charAt(index);index++;setTimeout(type,50);}else{setTimeout(()=>{startTyping();},2000);}}type();}setTimeout(startTyping,800);}
+    function typewriter(){const text='#1 Social Media Netzwerk';const typewriterElement=document.getElementById('typewriter-text');const cursor=document.getElementById('typewriter-cursor');function startTyping(){let index=0;cursor.style.display='inline';typewriterElement.textContent='';function type(){if(index<text.length){typewriterElement.textContent+=text.charAt(index);index++;setTimeout(type,50);}else{setTimeout(()=>{startTyping();},2000);}}type();}setTimeout(startTyping,800);}
 
     function handleMouseMove(e){const x=(e.clientX/window.innerWidth)*100;const y=(e.clientY/window.innerHeight)*100;document.documentElement.style.setProperty('--mouse-x',x+'%');document.documentElement.style.setProperty('--mouse-y',y+'%');document.body.querySelector('::before')&&document.body.style.setProperty('--cursor-opacity','1');}
     function showPopup(){document.getElementById('redirectPopup')?.classList.add('show');setTimeout(()=>{window.open('https://discord.gg/PVTQ2MvK','_blank');},2000);}
